@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "at32f403a_407.h": "c",
+        "at32f403a_407_wk_config.h": "c",
+        "at32f403a_407_int.h": "c",
+        "portmacro.h": "c",
+        "at32_sdio.h": "c",
+        "compare": "c",
+        "cstddef": "c",
+        "limits": "c",
+        "type_traits": "c",
+        "xmemory": "c",
+        "xutility": "c",
+        "ff.h": "c"
+    },
+    "files.encoding": "gb2312"
+}

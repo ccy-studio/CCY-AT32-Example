@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "AT32F403A",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "AT32F403ACGT7",
+                "AT_START_F403A_V1",
+                "USE_STDPERIPH_DRIVER",
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "EXTEND_SRAM 0xFE",
+                "__CC_ARM" //"__CC_ARM"是为了不让 uint8_t、uint16_t、uint32_t出现警告: 变量 "uint32_t" 不是类型名。
+            ],
+            "intelliSenseMode": "gcc-x86",
+            "browse": {
+                "path": [
+                    // 这里的跟前面“includePath”保持一致即可
+                    "${workspaceFolder}/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
